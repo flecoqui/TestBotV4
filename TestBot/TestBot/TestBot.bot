@@ -2,64 +2,62 @@
     "name": "TestBot",
     "description": "",
     "services": [
-       {
+        {
             "type": "abs",
-            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-            "subscriptionId": "e5c9fc83-fbd0-4368-9cb6-1b5823479b6d",
+            "appId": "f93c51e1-5576-4991-b80b-34cf07f36a38",
+            "id": "1",
+            "name": "testopenhackams",
             "resourceGroup": "testbotrg",
             "serviceName": "testopenhackams",
-            "name": "testopenhackams",
-            "id": "1",
-            "appId": "f93c51e1-5576-4991-b80b-34cf07f36a38"
+            "subscriptionId": "e5c9fc83-fbd0-4368-9cb6-1b5823479b6d",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
         },
         {
             "type": "blob",
             "connectionString": "DefaultEndpointsProtocol=https;AccountName=testopenhackamsa987;AccountKey=IpR6URicn/vkct8Qs9OxLmYvPA5dVqpla/sv/ppEdV0saHqwe6ikUkLSyHSyUsyXpNkDklSAGlSiynqRpsmymQ==;",
-            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-            "subscriptionId": "e5c9fc83-fbd0-4368-9cb6-1b5823479b6d",
+            "id": "2",
             "resourceGroup": "testbotrg",
             "serviceName": "testopenhackamsa987",
-            "id": "2"
+            "subscriptionId": "e5c9fc83-fbd0-4368-9cb6-1b5823479b6d",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
         },
         {
             "type": "endpoint",
             "appId": "",
             "appPassword": "",
             "endpoint": "http://localhost:3978/api/messages",
-            "name": "development",
-            "id": "3"
+            "id": "3",
+            "name": "development"
         },
         {
             "type": "endpoint",
             "appId": "f93c51e1-5576-4991-b80b-34cf07f36a38",
             "appPassword": "N^X#2ZaDZn[=r5p/Mm1F:H3jm",
             "endpoint": "https://testopenhackams.azurewebsites.net/api/messages",
-            "name": "production",
-            "id": "4"
+            "id": "4",
+            "name": "production"
         },
         {
             "type": "appInsights",
-            "instrumentationKey": "47980de4-0d88-40c4-89db-0946653c2575",
-            "applicationId": "bb3c561c-d76b-4abe-890f-c026a4d6aab9",
             "apiKeys": {},
-            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-            "subscriptionId": "e5c9fc83-fbd0-4368-9cb6-1b5823479b6d",
+            "applicationId": "bb3c561c-d76b-4abe-890f-c026a4d6aab9",
+            "id": "5",
+            "instrumentationKey": "47980de4-0d88-40c4-89db-0946653c2575",
             "resourceGroup": "testbotrg",
             "serviceName": "testopenhackamsvicmot",
-            "id": "5"
+            "subscriptionId": "e5c9fc83-fbd0-4368-9cb6-1b5823479b6d",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
         },
         {
             "type": "luis",
             "appId": "b69e96ad-32da-4334-98f0-538216a1fc87",
             "authoringKey": "14cfa46c7b5d462fadad70bce2fdd810",
-            "version": "0.1",
-            "region": "westus",
+            "id": "6",
             "name": "BasicBotLuisApplication",
-            "id": "6"
+            "region": "westus",
+            "version": "0.1"
         }
     ],
     "padlock": "",
-    "version": "2.0",
-    "path": "C:\\projects\\OpenhackConsersationnalAI\\Project1\\dotnet\\Project\\TestBot\\TestBot\\TestBot.bot",
-    "overrides": null
-}
+    "version": "2.0"
+  }
